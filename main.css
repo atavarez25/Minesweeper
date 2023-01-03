@@ -1,0 +1,70 @@
+
+
+body {
+    margin:0;
+    padding:0;
+    background-color: rgb(209 213 219);
+}
+
+header {
+    background-color: rgb(156 163 175);
+    height: 12vh;
+    border-style:outset;
+    border-width:5px;
+    border-color:rgb(107 114 128);
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    height:87.5vh;
+    background-color: rgb(209 213 219);
+}
+
+#game {
+    height: 60%;
+    aspect-ratio: 1/1;
+    margin:0 auto;
+    margin-top: 16px;
+    background-color: rgb(156 163 175);
+    border-style: outset;
+    border-width: 5px;
+    border-color:rgb(107 114 128);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 23.425%;
+    height: 23.425%;
+    border-width: 1%;
+    margin: 0;
+    padding:0;
+}
+
+.activated {
+
+}
+
+.unactivated {
+    background-color: gray;
+    border-style: outset;
+}
+
+.clock {
+    text-transform: uppercase;
+    background-color: black;
+    color:red;
+
+    height: 8vh;
+    margin-top: 1vh;
+    line-height: 8vh;
+    font-size: 6vh;
+    padding:1vh;
+    border-radius: 0px;
+    font-family: 'Kelly Slab', cursive;
+}
+
+.wingdings{
+    font-family: 'Wingdings';
+}
